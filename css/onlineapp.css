@@ -1,0 +1,191 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+background: #f5f7f8;
+padding: 40px;
+
+}
+
+form{
+max-width: 900px;
+margin: auto;
+background: #fff;
+padding: 35px;
+border-radius: 12px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+
+}
+
+h1{
+text-align: center;
+color: #1f4d45;
+margin-bottom: 10px;
+
+}
+
+p{
+text-align: center;
+color: #666;
+margin-bottom: 30px;
+
+}
+
+fieldset{
+border: 2px solid #1f4d45;
+padding: 25px;
+margin-bottom: 25px;
+border-radius: 10px;
+
+}
+
+
+legend{
+color: #1f4d45;
+font-size: 20px;
+font-weight: bold;
+padding: 0 10px;
+}
+
+label{
+display: block;
+margin-bottom: 8px;
+margin-top: 15px;
+color: #333;
+font-weight: 600;
+}
+
+input, textarea, {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 16px
+outline: none;
+transition: 0.3s;
+
+
+}
+
+textarea{
+resize: vertical;
+min-height: 100px;
+
+}
+
+input:focus, textarea:focus{
+border-color: #1f4d45;
+box-shadow: 0 0 8px rgba(31, 77, 69, .3);
+
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width:auto;
+    margin-right:8px;
+}
+
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#1f4d45;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+button:active{
+    transform:scale(.98);
+}
+
+input[type="file"]{
+    border:none;
+    padding:10px 0;
+}
+/* ===========================
+   iPhone & Android Phones
+   =========================== */
+@media screen and (max-width: 480px){
+
+    body{
+        padding:10px;
+    }
+
+    form{
+        padding:18px;
+        border-radius:10px;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    p{
+        font-size:14px;
+    }
+
+    legend{
+        font-size:18px;
+    }
+
+    label{
+        font-size:15px;
+    }
+
+    input,
+    textarea,
+    select{
+        font-size:15px;
+        padding:12px;
+    }
+
+    button{
+        font-size:17px;
+        padding:15px;
+    }
+
+}
+
+/* ===========================
+   Very Small Phones
+   (iPhone SE, older Android)
+   =========================== */
+@media screen and (max-width: 360px){
+
+    h1{
+        font-size:21px;
+    }
+
+    legend{
+        font-size:16px;
+    }
+
+    label{
+        font-size:14px;
+    }
+
+    input,
+    textarea,
+    select{
+        padding:10px;
+        font-size:14px;
+    }
+
+    button{
+        font-size:15px;
+    }
+
+}
