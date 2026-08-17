@@ -82,8 +82,18 @@ a, button, input {
 .box p {
     font-size: 13px;
     color: #ddd;
-    text-decoration: none;
+
 }
+
+
+.contact a {
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
 
 .contact-btn {
     background: #e63946;
