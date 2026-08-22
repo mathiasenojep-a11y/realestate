@@ -200,16 +200,11 @@ nav a:hover {
 .button {
     display: flex;
     gap: 15px;
-    animation: bigtech 1.5s ease-in-out infinite;
+    
 }
 
 
-@keyframes bigtech {
-0% { transform: translateY(100px);}
-100% { transform: translate(0px);}
 
-
-}
 .btn-red {
     background: #e63946;
     padding: 15px 35px;
