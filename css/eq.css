@@ -155,11 +155,24 @@ nav a:hover {
     align-items: center;
     padding: 70px 8%;
     gap: 40px;
+    
 }
+
+
+
 
 .herotext {
     width: 52%;
     color: white;
+    animation: prince 2s ease-in-out infinite;
+}
+
+
+@keyframes prince {
+0% { transform: translateY(100px);}
+100% { transform: translate(0px);}
+
+
 }
 
 .tag {
@@ -187,8 +200,16 @@ nav a:hover {
 .button {
     display: flex;
     gap: 15px;
+    animation: bigtech 1.5s ease-in-out infinite;
 }
 
+
+@keyframes bigtech {
+0% { transform: translateY(100px);}
+100% { transform: translate(0px);}
+
+
+}
 .btn-red {
     background: #e63946;
     padding: 15px 35px;
@@ -197,6 +218,7 @@ nav a:hover {
     border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s ease;
+    
 }
 
 .btn-red:hover {
